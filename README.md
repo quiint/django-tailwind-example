@@ -1,10 +1,9 @@
 # Example TailwindCSS + Django project
 
-## Local development
-
-To run the example project:
-
-Make sure `nodejs` and `npm` is installed on your device. If you are running on Windows, add `NPM_BIN_PATH = r"[NPM PATH HERE]"` to `settings.py` (You can find the path on Windows by typing `where npm`)
+### This is an edited version of [django-tailwind](https://github.com/timonweb/django-tailwind/)'s example (which can be found [here](https://github.com/timonweb/django-tailwind/tree/master/example))
+To run the example project:<br><br>
+Make sure `nodejs` and `npm` is installed on your device. If you are running on Windows, uncomment `NPM_BIN_PATH` in `settings.py` 
+<br><br>
 
 (Optional) Create a venv for dependency management
 
@@ -12,17 +11,16 @@ Make sure `nodejs` and `npm` is installed on your device. If you are running on 
 python -m venv env
 ```
 
-Windows: 
-```bash
-cd env
-Scripts\activate.bat
-```
+
+Windows:
+   
+    cd env
+    Scripts\activate.bat
 
 MacOS/Linux:
-```bash
-cd env
-source bin/activate
-```
+   
+    cd env
+    source bin/activate
     
 
 1. Install dependencies via `pip`:
@@ -50,7 +48,3 @@ source bin/activate
     ```
 
 5. Open `http://localhost:8000` in a browser. You should see the main page.   
-
-
-### This is an edited version of [django-tailwind](https://github.com/timonweb/django-tailwind/)'s example.
-
