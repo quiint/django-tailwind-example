@@ -1,5 +1,7 @@
 # Example TailwindCSS + Django project
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/quiint/django-tailwind-example)
+
 ### This is an edited version of [django-tailwind](https://github.com/timonweb/django-tailwind/)'s example (which can be found [here](https://github.com/timonweb/django-tailwind/tree/master/example))
 To run the example project:<br><br>
 Make sure `nodejs` and `npm` is installed on your device. If you are running on Windows, uncomment `NPM_BIN_PATH` in `settings.py` 
