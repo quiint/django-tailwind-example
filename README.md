@@ -9,6 +9,17 @@ To run the example project:
     ```bash
     pip install -r requirements.txt
     ```
+2. Install TailwindCSS depencies:
+   
+    ```bash
+    python manage.py tailwind install
+    ```
+    
+3. Start tailwind development server
+
+   ```bash
+   python manage.py tailwind start
+   ```
 
 2. Run development server:
 
@@ -18,19 +29,6 @@ To run the example project:
 
 3. Open `http://localhost:8000` in a browser. You should see the main page.   
 
-   
-## Docker setup
 
-1. Build containers via `docker-compose`:
+### This is an edited version of [django-tailwind](https://github.com/timonweb/django-tailwind/)'s example.
 
-    ```bash
-    docker-compose build
-    ```
-
-2. Start containers:
-
-    ```bash
-    docker-compose up
-    ```
-
-3. Open `http://localhost:8000` in a browser. You should see the main page.   
